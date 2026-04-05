@@ -1,4 +1,4 @@
-library(corrplot)   # Regresyon ilişkisi için martis karşılaştırma grafiği çizer
+library(corrplot)   # Korelasyon ilişkisi için martis karşılaştırma grafiği çizer
 
 ### 1.Adım: SENTETİK VERİ OLUŞTURMA 
 
