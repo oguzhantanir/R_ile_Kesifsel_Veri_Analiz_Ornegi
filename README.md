@@ -205,6 +205,7 @@ model_veri2 <- lm(yz ~ z1 + z2 + z3 + kz, data = veri2)
 summary(model_veri2)
 ```
 
-**Kaynakça:**
-IBM. What is Exploratory Data Analysis?
+## Kaynakça
+**IBM.** What is Exploratory Data Analysis?
+
 https://www.ibm.com/topics/exploratory-data-analysis.html
