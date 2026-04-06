@@ -8,6 +8,8 @@
 
 **Aykırı Değer (Outlier):** Veri setindeki diğer gözlemlerden anlamlı derecede farklılık gösteren veri noktasıdır. Bu değerler, istatistiksel modellerin parametre tahminlerini ve dağılım varsayımlarını etkileyebilir. Aykırı değerler, genellikle veri setinin genel davranışını anlamak ve analiz sonuçlarını iyileştirmek için tespit edilir ve uygun yöntemlerle işlenir.
 
+**Standart Sapma:** Bir veri kümesindeki değerlerin aritmetik ortalamadan ne kadar uzaklaştığını veya ortalama etrafında nasıl dağıldığını ölçen temel bir istatistiksel yayılım ölçüsüdür
+
 **Korelasyon (Correlation):** İki değişken arasındaki doğrusal ilişkinin yönünü ve şiddetini ölçen istatistiksel bir göstergedir. Korelasyon katsayısı -1 ile +1 arasında değişir; +1 tam pozitif ilişki, -1 tam negatif ilişki ve 0 doğrusal ilişki olmadığını ifade eder. Korelasyon analizi, değişkenler arasındaki bağı anlamak ve model kurarken ilişkileri değerlendirmek için kullanılır.
 
 **Regresyon (Regression):** Bağımlı değişkenin bir veya daha fazla bağımsız değişken ile matematiksel olarak modellenmesi ve tahmin edilmesi yöntemidir. Lineer regresyonda amaç, gözlemler arasındaki doğrusal ilişkiyi en küçük kareler yöntemi ile tahmin etmek ve bağımsız değişkenlerin etkilerini ölçmektir. Regresyon analizi, veri üzerinde tahminler yapmak, ilişkileri anlamak ve istatistiksel çıkarımlar elde etmek için temel bir araçtır.
@@ -26,7 +28,7 @@ Tekrarlanabilirilik için tohum ekiyoruz.
 ```
 set.seed(123) 
 ```
-İlk sentetik veri setimizi oluşturuyoruz. x1 için “ortalaması” 25, “sapma” 10 olan veri üretir, diğer bağımsız değişkenlerde benzer yöntem ile oluşturuluyor.
+İlk sentetik veri setimizi oluşturuyoruz. x1 için ortalaması "25", standart sapması "10" olan veri üretir, diğer bağımsız değişkenlerde benzer yöntem ile oluşturuluyor.
 ```
 n <- 100  #Gözlem Sayısı
 veri1 <- data.frame( x1 = rnorm(n, mean = 25, sd = 10),  # Bağımsız değişken 
