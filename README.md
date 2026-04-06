@@ -8,7 +8,7 @@
 
 **Aykırı Değer (Outlier):** Veri setindeki diğer gözlemlerden anlamlı derecede farklılık gösteren veri noktasıdır. Bu değerler, istatistiksel modellerin parametre tahminlerini ve dağılım varsayımlarını etkileyebilir. Aykırı değerler, genellikle veri setinin genel davranışını anlamak ve analiz sonuçlarını iyileştirmek için tespit edilir ve uygun yöntemlerle işlenir.
 
-**Standart Sapma:** Bir veri kümesindeki değerlerin aritmetik ortalamadan ne kadar uzaklaştığını veya ortalama etrafında nasıl dağıldığını ölçen temel bir istatistiksel yayılım ölçüsüdür
+**Standart Sapma:** Veri setindeki değerlerin, aynı değerlerin ortalamasından ne kadar saptığını ölçer. Yani verilerin dağılımının veya yayılımının bir göstergesidir. Standart sapma ne kadar büyükse, veriler ortalamadan o kadar fazla sapmaktadır.
 
 **Korelasyon (Correlation):** İki değişken arasındaki doğrusal ilişkinin yönünü ve şiddetini ölçen istatistiksel bir göstergedir. Korelasyon katsayısı -1 ile +1 arasında değişir; +1 tam pozitif ilişki, -1 tam negatif ilişki ve 0 doğrusal ilişki olmadığını ifade eder. Korelasyon analizi, değişkenler arasındaki bağı anlamak ve model kurarken ilişkileri değerlendirmek için kullanılır.
 
