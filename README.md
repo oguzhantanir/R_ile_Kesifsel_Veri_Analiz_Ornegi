@@ -16,7 +16,7 @@
 
 ## Uygulama Kodları ve Açıklamaları;
 
-Korelasyon ilişkisi için martis karşılaştırma grafiği çizmek için gerekli kütüphaneyi yüklüyoruz. Kod da bulunan diğer fonksiyonlar için farklı bir kütüphane yüklemeye gerek duyulmuyor, R temel fonksiyonları içerisindeler.
+Korelasyon ilişkisi ile martis karşılaştırma grafiği çizmek için gerekli kütüphaneyi yüklüyoruz. Kod da bulunan diğer fonksiyonlar için farklı bir kütüphane yüklemeye gerek duyulmuyor, R temel fonksiyonları içerisindeler.
 ```
 library(corrplot)
 ```
