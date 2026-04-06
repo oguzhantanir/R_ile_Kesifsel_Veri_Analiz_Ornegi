@@ -38,9 +38,9 @@ veri1 <- data.frame( x1 = rnorm(n, mean = 25, sd = 10),  # Bağımsız değişke
 ```
 Bağımlı değişken (x'lerden etkilenen, sabit değeri ve rastlantısal değer içeren stokastik bir regresyon model yapısı kuruyoruz)
 
-**Deterministik Model:** Matematiksel Model de denir (2 + 0.5*veri1$x1 + 2*veri1$x2 - 1.5*veri1$x3) sonucu tahmin edilebilen.
+**Deterministik Model:** Matematiksel Model de denir (2 + 0.5 * veri1$x1 + 2 * veri1$x2 - 1.5 * veri1$x3) sonucu tahmin edilebilen.
 
-**Stokastik Model:** istatistiksel Model de denir (2 + 0.5*veri1$x1 + 2*veri1$x2 - 1.5*veri1$x3 + rnorm(n, mean = 0, sd = 0.5)  ve sonuç istatistiksel yöntemlerle aranır.
+**Stokastik Model:** istatistiksel Model de denir (2 + 0.5 * veri1$x1 + 2 * veri1$x2 - 1.5 * veri1$x3 + rnorm(n, mean = 0, sd = 0.5)  ve sonuç istatistiksel yöntemlerle aranır.
 
 Bağımlı Değişken oluşturup veri1 data frame’ine ekliyoruz
 ```
